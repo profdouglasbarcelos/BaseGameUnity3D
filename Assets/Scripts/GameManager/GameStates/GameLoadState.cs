@@ -1,4 +1,4 @@
-﻿public class LoadGameState : BaseGameState
+﻿public class GameLoadState : BaseGameState
 {
     public override void OnEnter(BaseGameState from)
     {

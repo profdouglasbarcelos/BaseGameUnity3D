@@ -231,6 +231,7 @@
     <Compile Include="Assets\Scripts\GameManager\GameManager.cs" />
     <Compile Include="Assets\Scripts\GameManager\GameStates\BaseGameState.cs" />
     <Compile Include="Assets\Scripts\GameManager\GameStates\GameOverState.cs" />
+    <Compile Include="Assets\Scripts\GameManager\GameStates\GameRunningState.cs" />
     <Compile Include="Assets\Scripts\GameManager\GameStates\LoadGameState.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,16 +1,16 @@
 ﻿public class GameRunningState : BaseGameState
 {
-    public override void OnEnter(BaseGameState from)
+    public override void Enter(BaseGameState from)
     {
         throw new System.NotImplementedException();
     }
 
-    public override void OnExit(BaseGameState to)
+    public override void Exit(BaseGameState to)
     {
         throw new System.NotImplementedException();
     }
 
-    public override void OnTick()
+    public override void Tick()
     {
         throw new System.NotImplementedException();
     }

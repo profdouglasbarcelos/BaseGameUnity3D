@@ -58,7 +58,7 @@ public class GameManager : MonoBehaviour
         PushState(gameStates[0].GetName());
     }
 
-    // colocar um novo estado na fila
+    // colocar um novo estado na pilha
     public void PushState(string name)
     {
         BaseGameState state;

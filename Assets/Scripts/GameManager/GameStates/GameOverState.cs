@@ -1,5 +1,10 @@
 ﻿public class GameOverState : BaseGameState
 {
+    public override string GetStateName()
+    {
+        return "GameOver";
+    }
+
     public override void Enter(BaseGameState from)
     {
         throw new System.NotImplementedException();

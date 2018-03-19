@@ -48,14 +48,14 @@ public class GameManager : MonoBehaviour
 
         for (int i = 0; i < gameStates.Length; ++i)
         {
-            gameStates[i].gm = this;
-            gameStateDic.Add(gameStates[i].GetName(), gameStates[i]);
+            gameStates[i].gameManager = this;
+            gameStateDic.Add(gameStates[i].GetStateName(), gameStates[i]);
         }
 
         stateStack.Clear();
 
         // colocando o primeiro estado na pilha
-        PushState(gameStates[0].GetName());
+        PushState(gameStates[0].GetStateName());
     }
 
     // colocar um novo estado na pilha
